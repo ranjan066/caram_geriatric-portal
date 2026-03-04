@@ -1,0 +1,55 @@
+
+body{
+font-family:Arial;
+background:#eef3f8;
+text-align:center;
+margin:0;
+}
+
+.header{
+background:white;
+padding:15px;
+}
+
+.header-flex{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+height:80px;
+}
+
+.center-text{
+flex:1;
+}
+
+.main-title{
+color:red;
+font-size:28px;
+font-weight:bold;
+}
+
+.poster img{
+width:300px;
+height:300px;
+}
+
+.buttons{
+margin:30px;
+}
+
+button{
+padding:12px 20px;
+margin:10px;
+cursor:pointer;
+}
+
+.card{
+background:white;
+width:350px;
+margin:60px auto;
+padding:30px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
