@@ -1,55 +1,114 @@
-
-body{
-font-family:Arial;
-background:#eef3f8;
-text-align:center;
-margin:0;
+body {
+font-family: Arial;
+margin: 0;
+background: #f4f6f9;
 }
 
-.header{
-background:white;
-padding:15px;
+.poster-header {
+text-align: center;
+padding: 20px;
+background: white;
 }
+
+.top-line {
+color: green;
+font-size: 22px;
+}
+
+.main-title {
+color: red;
+font-size: 40px;
+font-weight: bold;
+}
+
+.sub-title {
+color: red;
+font-size: 28px;
+font-weight: bold;
+}
+
+.support-section {
+display: flex;
+justify-content: space-between;
+padding: 20px;
+background: #ffffff;
+}
+
+.center-box {
+text-align: center;
+margin: 30px;
+}
+
+.btn {
+display: inline-block;
+padding: 10px 20px;
+background: #0d3b66;
+color: white;
+text-decoration: none;
+margin: 5px;
+border-radius: 5px;
+}
+
+.admin {
+background: #2a9d8f;
+}
+
+.form-box, .profile-box {
+max-width: 600px;
+margin: 40px auto;
+background: white;
+padding: 20px;
+border-radius: 8px;
+}
+
+input, textarea, select {
+width: 100%;
+padding: 8px;
+margin: 6px 0;
+}
+
+footer {
+background: #198754;
+color: white;
+text-align: center;
+padding: 10px;
+margin-top: 40px;
+}
+@media (max-width:768px){
 
 .header-flex{
-display:flex;
-justify-content:space-between;
-align-items:center;
+flex-direction:column;
+text-align:center;
 }
 
 .logo{
-height:80px;
-}
-
-.center-text{
-flex:1;
+height:70px;
+margin:10px 0;
 }
 
 .main-title{
-color:red;
-font-size:28px;
-font-weight:bold;
+font-size:26px;
+}
+
+.sub-title{
+font-size:18px;
 }
 
 .poster img{
-width:300px;
-height:300px;
+width:220px;
+height:220px;
 }
 
-.buttons{
-margin:30px;
+.info{
+flex-direction:column;
+gap:20px;
 }
 
-button{
-padding:12px 20px;
-margin:10px;
-cursor:pointer;
+.form-box,
+.profile-box,
+.login-box,
+.dashboard{
+width:90%;
 }
 
-.card{
-background:white;
-width:350px;
-margin:60px auto;
-padding:30px;
-box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
